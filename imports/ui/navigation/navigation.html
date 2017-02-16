@@ -1,0 +1,11 @@
+<template name="navigation">
+  <div class="nav">
+    <a href="/">Index</a>
+    {{#if previouschapter}}
+      <a href="/chapterpos/{{previouschapter}}">Previous</a>
+    {{/if}}
+    {{#if nextchapter}}
+      <a href="/chapterpos/{{nextchapter}}">Next</a>
+    {{/if}}
+  </div>
+</template>

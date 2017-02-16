@@ -1,0 +1,18 @@
+<template name="itemchapter">
+  <div class="titulo">{{title}} - {{chaptersequence}}</div>
+  <select class="chapselection">
+    {{#each sequencia}}
+      <option value="{{this}}" {{isSelected ../nextchapter this}}>{{this}}</option>
+    {{/each}}
+  </select>
+  <select class="chapselection">
+    {{#each sequencia}}
+      <option value={{this}} {{isSelected ../chaptersequence this}}>{{this}}</option>
+    {{/each}}
+  </select>
+  <select class="chapselection">
+    {{#each sequencia}}
+      <option value="{{this}}" {{isSelected ../previouschapter this}}>{{this}}</option>
+    {{/each}}
+  </select>
+</template>

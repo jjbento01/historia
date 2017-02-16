@@ -1,0 +1,16 @@
+<template name='layout'>
+  <div class="mainbody">
+    <mainpart>
+      {{> yield "mainpart"}}
+    </mainpart>
+    <secondpart>
+      {{> yield "secondpart"}}
+    </secondpart>
+    <listpart>
+      {{> yield "listpart"}}
+    </listpart>
+  </div>
+  <navbar>
+    {{> yield "navbar"}}
+  </navbar>
+</template>

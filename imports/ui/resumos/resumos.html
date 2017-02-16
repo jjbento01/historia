@@ -1,0 +1,9 @@
+<template name="resumos">
+  <div>Subjects count: {{count}}</div>
+  <div>Subjects titles</div>
+  <ul>
+    {{#each capitulos}}
+      <li>{{title}} - {{_id}}</li>
+    {{/each}}
+  </ul>
+</template>
