@@ -130,7 +130,7 @@ Meteor.startup(() => {
         "Sample open answer: I do not want to be bothered with frequent calls!",
         "After preprocessing:",
         "want bothered frequent calls",
-        "Encoding for class A (with 'want' in the 57th position, 'bothered' in the 280th, 'frequent' in the 295th and 'calls' in the 340th):",
+        "Encoding for class A (with want in the 57th position, bothered in the 280th, frequent in the 295th and calls in the 340th:",
         "-1 57:1 280:1 295:1 340:1",
         "Encoding for class E (less telemarketing):",
         "+1 57:1 280:1 295:1 340:1",
